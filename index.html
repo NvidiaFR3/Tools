@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Tools Nvidia Botz</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      box-sizing: border-box;
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      background: linear-gradient(145deg, #0f172a, #1e293b);
+      color: #fff;
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 10px;
+    }
+
+    p {
+      opacity: 0.8;
+      margin-bottom: 40px;
+      text-align: center;
+      max-width: 600px;
+    }
+
+    .menu {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .card {
+      background: #334155;
+      padding: 30px;
+      border-radius: 16px;
+      width: 260px;
+      text-align: center;
+      cursor: pointer;
+      transition: transform 0.2s ease, background 0.3s;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    }
+
+    .card:hover {
+      transform: scale(1.05);
+      background: #475569;
+    }
+
+    .card h2 {
+      font-size: 1.3em;
+      margin-bottom: 10px;
+    }
+
+    .card p {
+      font-size: 0.9em;
+      opacity: 0.7;
+    }
+
+    a {
+      text-decoration: none;
+      color: inherit;
+    }
+
+    @media (max-width: 600px) {
+      .card {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Tools Nvidia Botz</h1>
+  <p>Automasi alat bantu pengembangan seperti uploader GitHub dan pengelola subdomain dengan interface sederhana namun powerful.</p>
+
+  <div class="menu">
+    <a href="/uploader-github">
+      <div class="card">
+        <h2>Uploader GitHub</h2>
+        <p>Upload dan buat repo dari ZIP langsung via API GitHub.</p>
+      </div>
+    </a>
+
+    <a href="/creat-subdo">
+      <div class="card">
+        <h2>Subdomain Nvidia</h2>
+        <p>Buat subdomain otomatis dan arahkan ke IP dengan mudah.</p>
+      </div>
+    </a>
+  </div>
+
+</body>
+</html>
